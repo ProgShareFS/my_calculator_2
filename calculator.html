@@ -13,9 +13,14 @@ function cube() {
 function inverse() {
   var num = document.getElementById("n1");
   num.value = 1/num.value;
+}
 function Pow4() {
   var num = document.getElementById("n1");
   num.value = Math.pow(num.value, 4);
+}
+function sinus() {
+  var num = document.getElementById("n1");
+  num.value = Math.sin(num.value);
 }
 </script>
 </head>
@@ -26,8 +31,9 @@ function Pow4() {
   <p>
     <button onclick="inverse()"> 1/x </button>
     <button onclick="square()"> x^2 </button>
-    <button onclick="cube()"> x^3 </button>
+    <button onclick="cube()"> x^3 </button>1
     <button onclick="Pow4()"> x^4 </button>
+    <button onclick="sinus()"> sin(x) </button>
   </p>
 </body>
 </html>
